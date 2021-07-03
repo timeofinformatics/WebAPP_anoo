@@ -1,17 +1,26 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 起動 docker-compose up -d",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timeofinformatics/WebAPP_anoo.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/timeofinformatics/WebAPP_anoo/issues"
+  },
+  "homepage": "https://github.com/timeofinformatics/WebAPP_anoo#readme"
 }
