@@ -8,5 +8,5 @@ services:
         working_dir: /project
         ports:
             - "3000:3000"
-        command: bash
+        command: npm start
 
